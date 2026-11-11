@@ -4826,7 +4826,7 @@ private fun VideoSettingsTab(
                             "1. Tap 'Go to GitHub' below to open the FCL Renderer Plugin releases page.\n\n" +
                             "2. Download the renderer APK you need (such as LTW, Zink, MobileGlues, Angle, VirGL).\n\n" +
                             "3. Install the APK on your device and launch it once to complete setup if needed.\n\n" +
-                            "4. Close and reopen Cubiq Launcher. The new renderer will automatically appear in your renderers list!",
+                            "4. Close and reopen Slash Launcher. The new renderer will automatically appear in your renderers list!",
                     confirmText = "Go to GitHub",
                     dismissText = androidx.compose.ui.res.stringResource(com.movtery.zalithlauncher.R.string.generic_cancel),
                     onConfirm = {
@@ -8004,7 +8004,7 @@ private fun AboutSettingsTab() {
 
             painter = painterResource(R.drawable.img_cubiq_emblem),
 
-            contentDescription = "Cubiq Emblem",
+            contentDescription = "Slash Launcher Emblem",
 
             modifier = Modifier.size(56.dp)
 
@@ -8094,7 +8094,7 @@ private fun AboutSettingsTab() {
 
                 Text(
 
-                    text = "Cubiq Launcher is an independent, unofficial fork of Zalith Launcher 2 created by MovTery & contributors, licensed under the GNU General Public License v3.0 (GPLv3).\nAll modifications, improvements, and custom modules are published under GPLv3.",
+                    text = "Slash Launcher is an unofficial modified version of Cubiq Launcher (an unofficial fork of Zalith Launcher 2 created by MovTery & contributors), licensed under the GNU General Public License v3.0 (GPLv3).\nAll modifications, improvements, and custom modules are published under GPLv3.",
 
                     color = Color(0xFFAAAAAA),
 
