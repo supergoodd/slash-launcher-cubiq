@@ -39,7 +39,7 @@ import okhttp3.Request
 import okhttp3.RequestBody
 import java.util.concurrent.TimeUnit
 
-val URL_USER_AGENT: String = "${BuildKeys.LAUNCHER_SHORT_NAME}/Android_${BuildConfig.VERSION_NAME} (https://github.com/CubiqLauncher/Cubiq)"
+val URL_USER_AGENT: String = "${BuildKeys.LAUNCHER_SHORT_NAME}/Android_${BuildConfig.VERSION_NAME} (https://github.com/supergoodd/slash-launcher-cubiq)"
 val TIME_OUT = TimeUnit.SECONDS.toMillis(30L)
 
 const val HOST_CURSEFORGE_API = "api.curseforge.com"
@@ -49,7 +49,7 @@ const val URL_MCMOD: String = "https://www.mcmod.cn/"
 const val URL_MINECRAFT_VERSION_REPOS: String = "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json"
 const val URL_MINECRAFT_ASSETS_INDEX: String = "https://launchermeta.mojang.com/v1/packages"
 const val URL_MINECRAFT_PURCHASE = "https://www.xbox.com/games/store/minecraft-java-bedrock-edition-for-pc/9nxp44l49shj"
-const val URL_PROJECT: String = "https://github.com/VivxKumar07/Cubiq-Launcher"
+const val URL_PROJECT: String = "https://github.com/supergoodd/slash-launcher-cubiq"
 const val URL_PROJECT_INFO: String = "https://api.github.com/repos/ZalithLauncher/Zalith-Info/contents/v2"
 const val URL_COMMUNITY: String = "https://github.com/VivxKumar07/Cubiq-Launcher/graphs/contributors"
 const val URL_DISCORD: String = "https://discord.gg/7sfG3J93fH"
