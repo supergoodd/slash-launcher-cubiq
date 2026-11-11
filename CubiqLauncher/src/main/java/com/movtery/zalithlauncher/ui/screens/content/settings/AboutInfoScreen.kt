@@ -105,7 +105,7 @@ fun AboutInfoScreen(
                         ButtonIconItem(
                             icon = painterResource(R.drawable.img_launcher),
                             title = BuildKeys.LAUNCHER_NAME,
-                            text = "v1.1.0 (Release) • Unofficial Fork of Zalith Launcher 2",
+                            text = "v${BuildConfig.VERSION_NAME} • Unofficial Modified Version — based on Cubiq Launcher",
                             button = {
                                 Button(
                                     onClick = { openLink(URL_PROJECT) }
@@ -121,7 +121,7 @@ fun AboutInfoScreen(
                         )
 
                         Text(
-                            text = "Notice: Cubiq Launcher is an unofficial version (fork) of Zalith Launcher 2, modified under the GNU General Public License v3.",
+                            text = "Notice: Slash Launcher is an unofficial modified version of Cubiq Launcher (itself an unofficial fork of Zalith Launcher 2), modified under the GNU General Public License v3.",
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
