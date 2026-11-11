@@ -1,51 +1,35 @@
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
-    android:viewportWidth="1556"
-    android:viewportHeight="1797">
-  <group android:scaleX="0.4329438"
-      android:scaleY="0.5"
-      android:translateX="441.16974"
-      android:translateY="449.25">
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Slash Launcher icon: Minecraft grass block with the letter "S".
+         Original artwork made for this fork (not the upstream logo). -->
+    <!-- grass block: top face -->
     <path
-        android:pathData="M778,1797l-778,-449l0,-898l778,449l0,898z"
-        android:strokeWidth="0"
-        android:fillColor="#ffcd30"/>
+        android:pathData="M54,28 L80,41 L54,54 L28,41 Z"
+        android:fillColor="#82D85A"/>
+    <!-- grass block: left face, grass strip on top -->
     <path
-        android:pathData="M778,1797l778,-449l0,-898l-778,449l0,898z"
-        android:strokeWidth="0"
-        android:fillColor="#bb7300"/>
+        android:pathData="M28,41 L54,54 L54,62 L28,49 Z"
+        android:fillColor="#58A939"/>
+    <!-- grass block: left face, dirt below -->
     <path
-        android:pathData="M0,450l778,449l778,-449l-778,-450l-778,450z"
-        android:strokeWidth="0"
-        android:fillColor="#fff29a"/>
+        android:pathData="M28,49 L54,62 L54,80 L28,67 Z"
+        android:fillColor="#6A4E30"/>
+    <!-- grass block: right face, grass strip on top -->
     <path
-        android:pathData="m778,1399.3c-8.6,0 -17.3,-2.2 -25,-6.7l-390,-225.2c-15.5,-8.9 -25,-25.4 -25,-43.3v-450.3c0,-17.9 9.5,-34.4 25,-43.3l390,-225.2c7.7,-4.5 16.4,-6.7 25,-6.7s17.3,2.2 25,6.7l390,225.2c15.5,8.9 25,25.4 25,43.3v450.3c0,17.9 -9.5,34.4 -25,43.3l-390,225.2c-7.7,4.5 -16.4,6.7 -25,6.7Z"
-        android:strokeWidth="0"
-        android:fillColor="#fff"/>
+        android:pathData="M54,54 L80,41 L80,49 L54,62 Z"
+        android:fillColor="#1F7112"/>
+    <!-- grass block: right face, dirt below -->
     <path
-        android:pathData="m778,448.7l390,225.2v450.3l-390,225.2 -390,-225.2v-450.3l390,-225.2m0,-100c-17.3,0 -34.5,4.5 -50,13.4l-390,225.2c-30.9,17.9 -50,50.9 -50,86.6v450.3c0,35.7 19.1,68.7 50,86.6l390,225.2c15.5,8.9 32.7,13.4 50,13.4s34.5,-4.5 50,-13.4l390,-225.2c30.9,-17.9 50,-50.9 50,-86.6v-450.3c0,-35.7 -19.1,-68.7 -50,-86.6l-390,-225.2c-15.5,-8.9 -32.7,-13.4 -50,-13.4h0Z"
-        android:strokeWidth="0"
-        android:fillColor="#fff"/>
+        android:pathData="M54,62 L80,49 L80,67 L54,80 Z"
+        android:fillColor="#331C0F"/>
+    <!-- letter "S" -->
     <path
-        android:pathData="M778,1349l-389.2,-224.6l0,-449.3l389.2,224.6l0,449.3z"
-        android:strokeWidth="0"
-        android:fillColor="#58a939"/>
-    <path
-        android:pathData="M778,1349l389.2,-224.6l0,-449.3l-389.2,224.6l0,449.3z"
-        android:strokeWidth="0"
-        android:fillColor="#1f7112"/>
-    <path
-        android:pathData="M388.8,675.1l389.2,224.6l389.2,-224.6l-389.2,-225.1l-389.2,225.1z"
-        android:strokeWidth="0"
-        android:fillColor="#82d85a"/>
-    <path
-        android:pathData="M778,1348.7l-389.2,-224.6l0,-314.5l389.2,224.6l0,314.5z"
-        android:strokeWidth="0"
-        android:fillColor="#6a4e30"/>
-    <path
-        android:pathData="M777.8,1348.7l389.2,-224.6l0,-314.5l-389.2,224.6l0,314.5z"
-        android:strokeWidth="0"
-        android:fillColor="#331c0f"/>
-  </group>
+        android:pathData="M65,42 C61,37 49,37 46,43 C43,49 49,52 54,54 C59,56 65,59 65,65 C65,71 59,74 54,74 C49,74 44,71 43,67"
+        android:strokeWidth="7"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
 </vector>
