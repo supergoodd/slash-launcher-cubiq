@@ -797,7 +797,7 @@ fun ForkWarningDialog(
                 // Body content
                 Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
                     Text(
-                        text = "Cubiq Launcher is an independent, unofficial fork of Zalith Launcher 2, licensed under the GNU General Public License v3.0 (GPLv3).",
+                        text = "Slash Launcher is an unofficial modified version of Cubiq Launcher (an unofficial fork of Zalith Launcher 2), licensed under the GNU General Public License v3.0 (GPLv3).",
                         color = Color(0xFFE2E2E2),
                         fontFamily = MinecraftFontFamily,
                         fontSize = 11.5.sp,
@@ -822,7 +822,7 @@ fun ForkWarningDialog(
                     }
 
                     Text(
-                        text = "All modifications and source code comply with GPLv3. For support or bug reports, please use the official Cubiq Launcher community.",
+                        text = "All modifications and source code comply with GPLv3. For support or bug reports, please use the Slash Launcher community.",
                         color = Color(0xFF888888),
                         fontFamily = MinecraftFontFamily,
                         fontSize = 10.sp,
