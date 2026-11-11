@@ -133,7 +133,7 @@ fun RendererSettingsScreen(
                                     "1. Tap 'Go to GitHub' below to open the FCL Renderer Plugin releases page.\n\n" +
                                     "2. Download the renderer APK you need (such as LTW, Zink, MobileGlues, Angle, VirGL).\n\n" +
                                     "3. Install the APK on your device and launch it once to complete setup if needed.\n\n" +
-                                    "4. Close and reopen Cubiq Launcher. The new renderer will automatically appear in your renderers list!",
+                                    "4. Close and reopen Slash Launcher. The new renderer will automatically appear in your renderers list!",
                             confirmText = "Go to GitHub",
                             dismissText = stringResource(R.string.generic_cancel),
                             onConfirm = {
